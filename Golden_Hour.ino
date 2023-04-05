@@ -1,7 +1,3 @@
-// Adapted J. Pearson 2/25/2018// This code plays part of Row Row Row your boat, using basic code.
-// Try this with and without loops and variables.
-
-/*
 Notes chart:
   C     C#     D     Eb   E     F     F#    G     G#    A     Bb    B
 0 16.35 17.32 18.35 19.45 20.60 21.83 23.12 24.50 25.96 27.50 29.14 30.87
