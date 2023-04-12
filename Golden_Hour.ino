@@ -14,6 +14,7 @@ Notes chart:
 
 int output = 13;
 
+int A4 = 440;
 int C4 = 262;
 int D4 = 294;
 int E4 = 330;
@@ -25,33 +26,116 @@ int tempo = 100;
 int whole = (60000 * 4) / tempo;
 int half = whole / 2;
 int dothalf = half * 1.5;
-int quarter = half / 2;
-int dotquarter = quarter * 1.5;
-int eigth = quarter / 2;
-
+int quart = half / 2;
+int dotquart = quart * 1.5;
+int eighth = quarter / 2;
+int doteigth = eighth * 1.5;
+int sixt = eighth / 2;
 int space = 10;
 
 void setup()
 {
-//measure 1
-tone(output, E4);     
-      delay(quarter);    
+//measure 1 
+tone(output, A4);     
+      delay(quart);    
     noTone(output);
       delay(space);
-tone(output, E4);     
-      delay(quarter);    
+tone(output, A4);     
+      delay(eighth);    
     noTone(output);
       delay(space);
-tone(output, F4);     
-      delay(quarter);    
+  tone(output, A4);     
+      delay(eighth);    
+    noTone(output);
+      delay(space);
+  tone(output, A4);     
+      delay(quart);    
+    noTone(output);
+      delay(space);
+  tone(output, A4);     
+      delay(eighth);    
+    noTone(output);
+      delay(space);
+  
+//measure 2
+  delay(eighth);
+tone(output, G4);     
+      delay(quart);    
     noTone(output);
       delay(space);
 tone(output, G4);     
-      delay(quarter);    
+      delay(eighth);    
+    noTone(output);
+      delay(space);
+  tone(output, G4);     
+      delay(eighth);    
+    noTone(output);
+      delay(space);
+  tone(output, G4);     
+      delay(quart);    
+    noTone(output);
+      delay(space);
+  tone(output, G4);     
+      delay(eighth);    
+    noTone(output);
+      delay(space);
+  
+//measure 3
+    delay(eighth);
+tone(output, A4);     
+      delay(quart);    
+    noTone(output);
+      delay(space);
+tone(output, A4);     
+      delay(eighth);    
+    noTone(output);
+      delay(space);
+  tone(output, A4);     
+      delay(eighth);    
+    noTone(output);
+      delay(space);
+  tone(output, A4);     
+      delay(quart);    
+    noTone(output);
+      delay(space);
+  tone(output, A4);     
+      delay(eighth);    
     noTone(output);
       delay(space);
 
-
+//measure 4
+tone(output, G4);     
+      delay(half);    
+    noTone(output);
+      delay(space);
+tone(output, C4);     
+      delay(eighth);    
+    noTone(output);
+      delay(space);
+  tone(output, D4);     
+      delay(sixt);    
+    noTone(output);
+      delay(space);
+  tone(output, F4);     
+      delay(sixt);    
+    noTone(output);
+      delay(space);
+  tone(output, F4);     
+      delay(eighth);    
+    noTone(output);
+      delay(space);
+    tone(output, D4);     
+      delay(eighth);    
+    noTone(output);
+      delay(space);
+int i=0;
+for(i <2, i++)
+{
+ 
+  
+  
+  
+}
 }
  
 void loop()
