@@ -146,21 +146,76 @@ tone(output, A4);
       delay(space);
   
   //measure 6
-tone(output, D4);     
-      delay(quart);    
+  delay(quart);
+tone(output, C4);     
+      delay(eighth);    
     noTone(output);
       delay(space);
-tone(output, A4);     
-      delay(half);    
+  tone(output, C4);     
+      delay(sixt);    
+    noTone(output);
+      delay(space);
+    tone(output, F4);     
+      delay(sixt);    
+    noTone(output);
+      delay(space);
+  tone(output, F4);     
+      delay(eighth);    
+    noTone(output);
+      delay(space);
+tone(output, E4);     
+      delay(sixt);    
+    noTone(output);
+      delay(space);
+tone(output, D4);     
+      delay(sixt);    
+    noTone(output);
+      delay(space);
+  tone(output, D4);     
+      delay(eighth);    
+    noTone(output);
+      delay(space);
+  tone(output, C4);     
+      delay(eighth);    
+    noTone(output);
+      delay(space);
+  
+  //measure 7 
+tone(output, C4);     
+      delay(eighth);    
+    noTone(output);
+      delay(space);
+tone(output, D4);     
+      delay(dotquart);    
     noTone(output);
       delay(space);
   tone(output, A4);     
       delay(quart);    
     noTone(output);
-      delay(space); 
+      delay(space);
+  tone(output, A4);     
+      delay(quart);    
+    noTone(output);
+      delay(space);
   
-  
-}
+   //measure 8 
+tone(output, A4);     
+      delay(quart);    
+    noTone(output);
+      delay(space);
+tone(output, D4);     
+      delay(dotquart);    
+    noTone(output);
+      delay(space);
+  tone(output, A4);     
+      delay(quart);    
+    noTone(output);
+      delay(space);
+  tone(output, A4);     
+      delay(quart);    
+    noTone(output);
+      delay(space);
+  }
 }
  
 void loop()
