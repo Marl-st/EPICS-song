@@ -129,10 +129,35 @@ tone(output, C4);
     noTone(output);
       delay(space);
 int i=0;
-for(i <2, i++)
+for(i < 2, i++)
 {
- 
+ //measure 5
+tone(output, D4);     
+      delay(quart);    
+    noTone(output);
+      delay(space);
+tone(output, A4);     
+      delay(half);    
+    noTone(output);
+      delay(space);
+  tone(output, A4);     
+      delay(quart);    
+    noTone(output);
+      delay(space);
   
+  //measure 6
+tone(output, D4);     
+      delay(quart);    
+    noTone(output);
+      delay(space);
+tone(output, A4);     
+      delay(half);    
+    noTone(output);
+      delay(space);
+  tone(output, A4);     
+      delay(quart);    
+    noTone(output);
+      delay(space); 
   
   
 }
