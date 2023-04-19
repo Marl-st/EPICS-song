@@ -29,7 +29,7 @@ int dothalf = half * 1.5;
 int quart = half / 2;
 int dotquart = quart * 1.5;
 int eighth = quart / 2;
-int doteigth = eighth * 1.5;
+int doteighth = eighth * 1.5;
 int sixt = eighth / 2;
 int space = 10;
 
@@ -199,20 +199,72 @@ tone(output, D4);
       delay(space);
   
    //measure 8 
-tone(output, A4);     
-      delay(quart);    
-    noTone(output);
-      delay(space);
 tone(output, D4);     
-      delay(dotquart);    
+      delay(quart);    
+    noTone(output);
+      delay(space);
+tone(output, C4);     
+      delay(eighth);    
+    noTone(output);
+      delay(space);
+  tone(output, C4);     
+      delay(eighth);    
+    noTone(output);
+      delay(space);
+  tone(output, D4);     
+      delay(eighth);    
+    noTone(output);
+      delay(space);
+  tone(output, F4);     
+      delay(quart);    
+    noTone(output);
+      delay(space);
+    tone(output, D4);     
+      delay(eighth);    
+    noTone(output);
+      delay(space);
+  
+  //measure 9
+  tone(output, D4);     
+      delay(quart);    
+    noTone(output);
+      delay(space);
+tone(output, A4);     
+      delay(half);    
     noTone(output);
       delay(space);
   tone(output, A4);     
       delay(quart);    
     noTone(output);
       delay(space);
-  tone(output, A4);     
-      delay(quart);    
+
+  //measure 10
+tone(output, F4);     
+      delay(eighth);    
+    noTone(output);
+      delay(space);
+  tone(output, F4);     
+      delay(eighth);    
+    noTone(output);
+      delay(space);
+tone(output, F4);     
+      delay(eighth);    
+    noTone(output);
+      delay(space);
+  tone(output, F4);     
+      delay(sixt);    
+    noTone(output);
+      delay(space);
+  tone(output, F4);     
+      delay(sixt);    
+    noTone(output);
+      delay(space);
+  tone(output, F4);     
+      delay(doteighth);    
+    noTone(output);
+      delay(space);
+    tone(output, F4);     
+      delay(sixt);    
     noTone(output);
       delay(space);
   }
