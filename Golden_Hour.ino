@@ -464,7 +464,7 @@ tone(output, D4);
       delay(eighth);
     noTone(output);
       delay(space);
-  tone(ouput, F4);
+  tone(output, F4);
       delay(quart);
     noTone(output);
       delay(space);
