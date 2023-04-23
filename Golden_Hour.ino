@@ -584,9 +584,109 @@ tone(output, D4);
       delay(space);
   
   //measure 24
-    
+  tone(output, D4);
+      delay(sixt);
+    noTone(output);
+      delay(space);
+  tone(output, C4);
+      delay(sixt);
+    noTone(output);
+      delay(space);
+  tone(output, B3);
+      delay(dotquart);
+    noTone(output);
+      delay(space);
+  delay(quart);
+  delay(eighth);
+  tone(output, D4);
+      delay(sixt);
+    noTone(output);
+      delay(space);
+  tone(output, B3);
+      delay(sixt);
+    noTone(output);
+      delay(space);
   
-
+  //measure 25
+  tone(output, C4);
+      delay(half);
+    noTone(output);
+      delay(space);
+  delay(eighth);
+  tone(output, C4);
+      delay(quart);
+    noTone(output);
+      delay(space);
+  tone(output, D4);
+      delay(eighth);
+    noTone(output);
+      delay(space);
+  
+  //measure 26
+  tone(output, D4);
+      delay(whole);
+    noTone(output);
+      delay(space);
+  
+  //measure 27
+  tone(output, F4);
+      delay(doteighth);
+     noTone(output);
+      delay(space);
+  tone(output, D4);
+      delay(sixt);
+    noTone(output);
+      delay(space);
+  tone(output, A4);
+      delay(eighth);
+    noTone(output);
+      delay(space);
+  tone(output, A4);
+      delay(sixt);
+    noTone(output);
+      delay(space);
+  tone(output, A4);
+      delay(sixt);
+    noTone(output);
+      delay(space);
+  tone(output, A4);
+      delay(eighth);
+    noTone(output);
+      delay(space);
+  tone(output, G4);
+      delay(eighth);
+    noTone(output);
+      delay(space);
+  tone(output, F4);
+      delay(sixt);
+    noTone(output);
+      delay(space);
+  tone(output, G4);
+      delay(sixt);
+    noTone(output);
+      delay(space);
+  tone(output, A4);
+      delay(eighth);
+    noTone(output);
+      delay(space);
+  
+  //measure 28
+  tone(output, A4);
+      delay(quart);
+    noTone(output);
+      delay(space);
+  delay(eighth);
+  tone(output, A4);
+      delay(eighth);
+    noTone(output);
+      delay(space);
+  tone(output, G4);
+      delay(half);
+    noTone(output);
+      delay(space);
+  
+  //measure 29
+  
   }
 }
  
