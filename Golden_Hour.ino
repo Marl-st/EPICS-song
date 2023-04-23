@@ -686,7 +686,125 @@ tone(output, D4);
       delay(space);
   
   //measure 29
+  tone(output, E4);
+      delay(doteighth);
+     noTone(output);
+      delay(space);
+  tone(output, G4);
+      delay(sixt);
+    noTone(output);
+      delay(space);
+  tone(output, B4);
+      delay(eighth);
+    noTone(output);
+      delay(space);
+  tone(output, B4);
+      delay(eighth);
+    noTone(output);
+      delay(space);
+  tone(output, B4);
+      delay(sixt);
+    noTone(output);
+      delay(space);
+  tone(output, C5);
+      delay(sixt);
+    noTone(output);
+      delay(space);
+  tone(output, D5);
+      delay(eighth);
+    noTone(output);
+      delay(space);
+  tone(output, D5);
+      delay(doteighth);
+    noTone(output);
+      delay(space);
+  tone(output, A4);
+      delay(sixt);
+    noTone(output);
+      delay(space);
   
+  //measure 30
+  tone(output, A4);
+      delay(half);
+    noTone(output);
+      delay(space);
+  delay(sixt);
+  tone(output, A4);
+      delay(sixt);
+    noTone(output);
+      delay(space);
+  tone(output, A4);
+      delay(sixt);
+    noTone(output);
+      delay(space);
+  tone(output, C5);
+      delay(dotquart);
+    noTone(output);
+      delay(space);
+  
+  //measure 31
+  tone(output, C5);
+      delay(eighth);
+    noTone(output);
+      delay(space);
+  tone(output, F4);
+      delay(sixt);
+    noTone(output);
+      delay(space);
+  tone(output, F4);
+      delay(sixt);
+    noTone(output);
+      delay(space);
+  tone(output, F4);
+      delay(quart);
+    noTone(output);
+      delay(space);
+  delay(quart);
+  tone(output, B4);
+      delay(eighth);
+    noTone(output);
+      delay(space);
+  tone(output, C5);
+      delay(dotquart);
+    noTone(eighth);
+      delay(space);
+  
+  //measure 32
+  tone(output, C5);
+      delay(eighth);
+    noTone(output);
+      delay(space);
+  tone(output, F4);
+      delay(sixt);
+    noTone(output);
+      delay(space);
+  tone(output, F4);
+      delay(sixt);
+    noTone(output);
+      delay(space);
+  tone(output, F4);
+      delay(dothalf);
+    noTone(output);
+      delay(space);
+  
+  //measure 33
+  delay(half);
+  tone(output, C4);
+      delay(eighth);
+    noTone(output);
+      delay(space);
+  tone(output, D4);
+      delay(eighth);
+    noTone(output);
+      delay(space);
+  tone(output, C4);
+      delay(sixt);
+    noTone(output);
+      delay(space);
+  tone(output, D4);
+      delay(doteighth);
+    noTone(output);
+      delay(space);
   }
 }
  
